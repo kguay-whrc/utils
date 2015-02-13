@@ -12,8 +12,8 @@ Rutil *(n.)* a repository of R utilities that haven't made it into a package yet
 
 	numbers <- c('one','two','three’)
 
-	# shift to the right
-	shift(numbers,1) # three, one, two
+	# shift to the right: three, one, two
+	shift(numbers,1)
 
-	# shift to the left
-	shift(numbers,-1) # two, three, one
+	# shift to the left: two, three, one
+	shift(numbers,-1)
